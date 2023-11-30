@@ -5,10 +5,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 7%;
-    padding:0 150px 0 150px;
-  }
-  
-  .product {
+    padding: 0 150px;
+}
+
+.product {
     width: calc(33.33% - 80px);
     margin: 10px;
     padding: 15px;
@@ -17,34 +17,25 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .product:hover {
+}
+
+.product:hover {
     transform: scale(1.05);
-  }
-  
-  .product img {
-    /* width: 150px; */
-    height: 150px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    object-fit: cover; /* Maintain the aspect ratio of the image */
-  }
-  
-  .product-value {
+}
+
+.product-value {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    
-  }
-  .product-value p {
+
+}
+.product-value p {
     color: green;
     font-size: large;
     font-weight: bolder;
-  }
-  .product button {
+}
+.product button {
     background-color: #4caf50;
     color: #fff;
     border: none;
@@ -52,10 +43,16 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .product button:hover {
+}
+
+.product button:hover {
     background-color: #45a049;
-  }
-  
-  
+}
+
+.product-image {
+  max-width: 200px;
+  height: 200px;
+  margin-left: 10%;
+  border-radius: 4px;
+  object-fit: cover; 
+}
