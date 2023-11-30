@@ -1,0 +1,74 @@
+/* Cart.css */
+
+.cart-container {
+    display: flex;
+    justify-content:center;
+    margin-top: 7%;
+}
+
+.cart-list{
+    text-align: center;
+    /* margin: 30px; */
+    
+}
+
+.cart-list h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display:initial;
+}
+
+.cart-price {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.cart-value{
+    margin-top: 60%;
+}
+.cart-value p{
+    font-size: large;
+}
+.cart-price h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.cart-price h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #45a049;
+    font-weight: bolder;
+}
+
+.cart-price p {
+    margin: 10px 0;
+}
+
+.cart-value button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-price button:hover {
+    background-color: #45a049;
+}
+
+.cart-value button a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+
+/* Add any additional styling as needed */
